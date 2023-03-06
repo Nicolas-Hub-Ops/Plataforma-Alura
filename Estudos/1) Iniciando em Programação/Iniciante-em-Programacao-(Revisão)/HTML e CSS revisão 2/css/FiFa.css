@@ -1,0 +1,94 @@
+
+
+body {font-family: 'Passion One', cursive;
+		color: red;}
+
+
+.fundo{background: darkblue; }
+
+/* M E N U */
+
+	header {padding: 10px  0;
+			background: linear-gradient(90deg,mediumblue,white,mediumblue)}
+
+
+		.Logo{width: 23%;
+			 margin-left: 100px;}
+
+		.caixa{position: relative;
+				width:940px;
+				margin: 0 auto;}
+
+				.Menu{margin-right: 110px;}
+
+			nav {position:absolute;
+					top: 150px;
+					right: 0;}
+
+
+			nav li {display: inline;
+					margin: 0 0 0 35px;}
+
+			nav a {text-transform: uppercase; 
+	   				color: #363636; 
+	   				font-weight: bold;
+	   				font-size: 30px; 
+	   				text-decoration: none;
+	   				transition: 0.5s all;}
+
+nav a:hover{ color: gold;
+			 text-decoration: underline;}
+
+
+.titulo{font-size: 60px;
+		text-align: center;
+		margin-top: 50px;
+		margin-bottom: 40px;}
+
+
+.texto{font-size: 20px;
+		text-align: center;}
+
+.imagem{width: 50%;
+		margin-top: 100px;
+		margin-left: 60px;
+/*		margin-bottom: 100px;*/
+		display: inline-block;
+		border: 5px solid purple;
+		border: none;
+		border-radius: 20px;
+		box-shadow: 10px 10px 10px 10px black;}
+
+.Trailer{font-size: 40px;
+			margin-left: 50px;
+			margin-bottom: 30px;
+			font-style: italic;
+			text-shadow: 2px 2px 1px 2px black;}
+
+.video{display: inline-block;
+		vertical-align: top;
+		margin-top: 130px;
+		margin-left: 80px;
+		box-shadow: }
+
+
+.tituloMapa{text-align: center;
+			font-size: 60px;
+			margin-bottom: 50px;
+			margin-top: 100px;}
+
+.mapa{margin-left: 150px;
+		margin-bottom: 100px;}
+
+
+h1 {text-shadow: 0.5em 0.5em 0.1em black;}/*
+h1 {text-shadow: 2px 2px white, 1px 1px #444}
+/*
+h1 {text-shadow: 0 0 0.2em #8F7}*/
+
+
+
+
+
+
+

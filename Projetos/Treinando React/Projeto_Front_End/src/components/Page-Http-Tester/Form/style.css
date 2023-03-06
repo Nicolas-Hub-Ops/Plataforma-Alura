@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.input-code input {
+    font-family: 'Open Sans', sans-serif;
+    font-size:18px;
+    padding:10px 10px 10px 5px;
+    display: block;
+    width: 500px;
+    background: transparent;
+    border:none;
+    border-bottom: 3px solid black;
+    color: gray;
+    margin: auto;
+    transition: all 0.5s;
+}
+
+.input-code input:focus { 
+    outline:none;
+    border-bottom: 3px solid blue;
+}
+
+@media screen and (max-width: 700px) {
+    .input-code input {
+        width: 50%;
+    }
+}
+
+.table-status {
+    margin: auto;
+}
+
+
+.tr-tbody-status-cod td, .tr-tbody-status-des td {
+    font-family: 'Poppins';
+    text-align: center;
+    border-bottom: 2px solid #EAEAEA;
+    color: black;
+    padding: 3em 0 0 0;
+    width: 500px;
+}
+
+.td-tbody-status {
+    text-align: left;
+}
+
+.td-tbody-status-res {
+    text-align: center;
+}
+
+.image-http {
+    display: block;
+}
+
+.image-http {
+    width: 750px;
+    margin: auto;
+    margin-top: 3em;
+    display: block;
+}
+
+@media screen and (max-width: 1100px) {
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .image-http {
+        width: 90%;
+    }    
+}

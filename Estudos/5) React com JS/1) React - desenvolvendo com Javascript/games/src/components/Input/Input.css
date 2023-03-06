@@ -1,0 +1,8 @@
+.container-text-password {
+    display: block;
+    padding: auto;
+}
+
+.container-text-password label, input {
+    margin: 0;
+}

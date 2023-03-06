@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+.login-page {
+    color: #fff;
+    font-family: 'Iceland'; 
+    width: 100vw;
+    height: 100vh;
+    background-color: #242424;
+}
+
+.login-page h1 {
+    font-size: 96px;
+    font-family: 'Iceland';
+    margin-bottom: 1em;
+}
+
+.login-page .area {
+    font-size: 26px;
+}
+
+.form {
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    padding-top: 8%;
+    width: 45em;
+}

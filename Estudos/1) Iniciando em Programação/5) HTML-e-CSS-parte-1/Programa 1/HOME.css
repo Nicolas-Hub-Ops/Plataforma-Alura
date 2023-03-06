@@ -1,0 +1,117 @@
+
+
+
+
+.caixa{position: relative;
+		width:940px;
+		margin: 0 auto;}
+			
+
+	header {padding: 10px  0;
+			background:  #00002B
+		}
+
+
+
+
+			nav {position:absolute;
+					top: 110px;
+					right: 0;}
+
+
+
+
+			nav li {display: inline;
+					margin: 0 0 0 35px;}
+
+			nav a {text-transform: uppercase; 
+	   				color: #00BFFF; 
+	   				font-weight: bold;
+	   				font-size: 20px; 
+	   				text-decoration: none}
+
+
+nav a:hover{ color: #8A2BE2;
+			 text-decoration: underline;}
+
+
+.fundo {background: url(fundo.JPG);}
+
+
+main {margin: 0  auto;}
+
+
+	
+
+
+
+
+
+strong { color: #8A2BE2;}
+
+
+
+#titulo {font-size: 50px;
+         font-weight: bold;
+         text-align: center;
+     	 padding: 50px  100px;
+     	 color: #8A2BE2;}
+
+
+h2 {color: #00BFFF;
+	text-align: center;
+	font-size: 18px}
+
+
+#subtitulo{padding: 50px 100px;
+			font-weight: bold;
+			font-size: 50px;
+			color: #8A2BE2;}
+
+.texto {color: #00BFFF;
+		}
+
+
+
+
+
+footer{ background: #00002B;
+        text-align: center;
+        color: #8A2BE2;
+        font-weight: bold;
+        font-size: 20px}
+
+
+
+.tamanhoLogo{width: 25%}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

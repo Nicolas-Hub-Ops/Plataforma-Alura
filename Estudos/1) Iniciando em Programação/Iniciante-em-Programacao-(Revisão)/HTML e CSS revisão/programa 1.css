@@ -1,0 +1,99 @@
+
+
+	header {padding: 10px  0;
+			background:  #00002B}
+
+
+			.caixa{position: relative;
+				   width:940px;
+					margin: 0 auto;}
+
+			nav {position:absolute;
+					top: 110px;
+					right: 0;}
+
+
+
+
+			nav li {display: inline;
+					margin: 0 0 0 35px;}
+
+			nav a {text-transform: uppercase; 
+	   				color: #00BFFF; 
+	   				font-weight: bold;
+	   				font-size: 20px; 
+	   				text-decoration: none;
+	   				transition: 0.5s all;}
+
+nav a:hover{ color: goldenrod;
+			 text-decoration: underline;}
+/* contéúdo */
+
+/*main ul {background: black; color: #FFFFFF}*/
+
+main ul h1{color: #8A2BE2}
+
+main ul a {color: #FFFFFF}
+
+main ul a:hover{color:goldenrod ;}
+
+body {	font-family:'Roboto', sans-serif;
+		background: linear-gradient(90deg,#00002B,white, #00002B)}
+
+
+			.tamanhoLOGO{width: 25%}
+
+#titulo{text-align: center; 
+		font-weight: bold;
+		font-style: italic;
+		font-size: 40px;
+		color: gold;
+		/*border:2px solid gold;
+		background: #00BFFF;
+		border: none;*/}
+
+
+.produtos {width: 940px
+		   margin: 0 auto;
+			padding: 100px 0;}
+
+.produtos li {display: inline-block;
+		      text-align: center;
+		  	  margin: 0 0 0 20px;
+		  	  width: 30%;
+		  	  vertical-align: top;
+		  	  border: 5px dashed #00BFFF;
+		  	  border-radius: 20px;
+		  	  transition: 0.5s all;}
+
+.produtos li:hover{border-color: gold;
+				   transform: scale(1.1);}
+
+.produtos h2 {font-size: 30px;
+			  font-weight: bold;}
+
+.descrição {font-size: 18px;}
+
+.preço {font-size: 22px;
+		font-weight: bold;
+		margin: 20px 0;}
+
+
+
+.imagem{width: 60%}
+
+
+/* final */
+
+footer{ background: #00002B;
+        text-align: center;
+        color: #8A2BE2;
+        font-weight: bold;
+        font-size: 20px}
+
+.tamanhoLogo{width: 15%}
+
+
+
+
+

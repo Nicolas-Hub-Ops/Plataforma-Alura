@@ -1,0 +1,185 @@
+
+
+/* C O R P O  D O  P R O G R A M A  */
+
+
+body{font-family: 'Potta One', cursive;}
+
+.fundo{background: linear-gradient(blue,white,red); }
+
+/* M E N U */
+
+	header {padding: 10px  0;
+			background: linear-gradient(90deg,darkblue,white,darkblue)}
+
+
+		.Logo{width: 23%;
+			 margin-left: 100px;}
+
+		.caixa{position: relative;
+				width:940px;
+				margin: 0 auto;}
+
+				.Menu{margin-right: 100px;}
+
+			nav {position:absolute;
+					top: 150px;
+					right: 0;}
+
+
+			nav li {display: inline;
+					margin: 0 0 0 35px;}
+
+			nav a {text-transform: uppercase; 
+	   				color: darkred; 
+	   				font-weight: bold;
+	   				font-size: 22px; 
+	   				text-decoration: none;
+	   				transition: 0.5s all;}
+
+nav a:hover{ color: #00BFFF;
+			 text-decoration: underline;}
+
+/* C O R P O */
+
+
+
+.tituloInicial{text-align: center;
+				font-size: 40px;
+				margin-top: 50px;
+				margin-bottom: 100px;}
+
+/* FiFa */
+
+.tituloFiFa{text-align: left;
+			font-size: 30px;
+			margin-left: 250px;
+			margin-bottom: 30px;}
+
+
+.FiFa{text-align: left;
+	  font-style: italic;
+	  font-weight: bold;
+	  margin-top: 10px;
+	  margin-left: 100px;}
+
+
+.left{margin-top: 30px;}
+
+
+.left:before{content:"⇛";}
+
+
+.logoFifa{width: 45%;
+		  display: inline-block;
+		  /*vertical-align: bottom;*/
+		  margin-left: 120px;
+		  vertical-align: top;
+		   box-shadow: 10px 10px 10px 10px black;}
+
+
+.grupoFifa{display: inline-block;
+			text-align: left;
+			margin-bottom: 10px;}
+
+
+/* Street Fight */
+
+.tituloStreet{text-align: right;
+			font-size: 30px;
+			margin-left: 50px;
+			margin-bottom: 30px;
+			margin-right: 150px;}
+
+
+.Street{text-align: right;
+	  font-style: italic;
+	  font-weight: bold;
+	  margin-top: 10px;
+	  margin-right: 50px;}
+
+
+.right{margin-top: 30px;}
+
+
+.right:after{content: "⇚";}
+
+
+.logoStreet{width: 45%;
+		  display: inline-block;
+		  /*vertical-align: bottom;
+		  margin-left: 120px;*/
+		  vertical-align: top;
+		  margin-left: 100px;
+		  margin-right: 50px;
+		  box-shadow: 10px 10px 10px 10px black;}
+
+
+.grupoStreet{display: inline-block;
+			text-align: left;
+			margin-bottom: 10px;
+			margin-top: 40px;}
+
+
+
+
+/* FIFA VS STREET */
+
+
+.titulo{margin-top: 200px;
+		margin-bottom: 150px;}
+
+
+
+.texto{font-size: 40px;
+		display: inline-block;
+		margin-left: 150px;}
+
+.Vs{font-size: 100px;
+	display: inline-block;
+	margin-left: 100px;}
+
+
+.textoRodapé{text-align: center;
+			font-size: 30px;}
+
+
+.formulario{margin-bottom: 150px;
+			margin-left: 380px;
+			font-size: 22px;}
+
+
+.enviar{width:30%;
+        border: 1px solid black;
+    	border-radius: 5px;
+    	padding: 15px 30px;
+    	background: gold;
+    	border: none;
+    	transition: 1.5s all;
+    	cursor: pointer;
+    	margin-left: 110px;}
+
+.enviar:hover{background: blue;
+			color: darkred;
+			transform: scale(1.1);}
+
+
+.marca{font-size: 35px;
+			text-align:center;}
+
+
+footer {background: linear-gradient(90deg,darkred,white,darkred)}
+.Logofinal{width: 25%;
+			margin-left: 500px;}
+
+.final{text-align: center;
+		font-weight: bold;
+		font-style: italic;
+		font-size: 20px;}
+
+
+
+
+
+
+

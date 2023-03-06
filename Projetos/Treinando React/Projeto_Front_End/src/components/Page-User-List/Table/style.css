@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.container {
+    margin-top: 2em
+}
+
+.table {
+    font-family: 'Poppins';
+    margin: auto;
+}
+
+.tr-thead-users {
+    font-weight: bold;
+    border-bottom: 2px solid darkgray;
+}
+  
+.tr-tbody-users {
+    border-bottom: 2px solid #EAEAEA;
+    color: #6C757D;
+}
+
+.th-users {
+    text-align: center;
+    padding: 0 0 1em 15px;
+}
+
+.tdImg {
+    padding: 0.5em 15px 0.5em 15px;
+    vertical-align: middle;
+}
+.tdImg:hover {
+    background: #EAEAEA;
+}
+
+.tdValues {
+    padding: 0.5em 0em 0.5em 15px;
+    vertical-align: middle;
+    width: 30%;
+    text-align: center;
+}
+.tdValues:hover {
+    background: #EAEAEA;
+}
+
+.tdAge {
+    width: 10%;
+    vertical-align: middle;
+    text-align: center;
+}
+.tdAge:hover {
+    background: #EAEAEA;
+}
+
+  
+.img-user {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        overflow: scroll;
+        height: 50em;
+    }
+
+    .table {
+        margin: auto 1em;
+    }
+
+
+    .tdValues {
+        padding: 0.5em 50px;        
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .tdAge {
+        padding: 0.5em 50px;
+        vertical-align: middle;
+        text-align: center;
+    }
+}

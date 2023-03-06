@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/js",  // DESTINO DA COMPILAÇÃO
+        "target": "ES6",      // TIPO DE LINGUAGEM
+        "noEmitOnError": true,// ATIVA OU NÃO => reload server se tiver erro na compilação
+        "noImplicitAny": true // ATIVA OU NÃO => type: any
+    },
+    "include": [
+        "app/**/*"           // CAMINHO DE ARQUIVOS QUE SERÃO COMPILADOS
+    ]
+}

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+.signup-page {
+    color: #fff;
+    font-family: 'Iceland'; 
+    width: 100vw;
+    height: 100vh;
+    background-color: #242424;
+}
+
+.signup-page h1 {
+    font-size: 96px;
+    font-family: 'Iceland';
+    margin-bottom: 1em;
+}
+
+.signup-page .dominio {
+    font-size: 26px;
+}
+
+.form-signup {
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    padding-top: 2%;
+    width: 45em;
+}

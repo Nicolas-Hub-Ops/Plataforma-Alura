@@ -1,0 +1,30 @@
+
+
+
+/* C A B E Ç A L H O  D O  P R O G R A M A  */
+
+
+	header {padding: 10px  0;}
+
+
+
+
+			nav {position:absolute;
+					top: 110px;
+					right: 0;}
+
+
+
+
+			nav li {display: inline;
+					margin: 0 0 0 35px;}
+
+			nav a {text-transform: uppercase; 
+	   				color: #00BFFF; 
+	   				font-weight: bold;
+	   				font-size: 20px; 
+	   				text-decoration: none;
+	   				transition: 0.5s all;}
+
+nav a:hover{ color: gold;
+			 text-decoration: underline;}

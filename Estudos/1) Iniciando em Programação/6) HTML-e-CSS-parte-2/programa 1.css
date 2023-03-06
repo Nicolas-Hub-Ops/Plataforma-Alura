@@ -1,0 +1,87 @@
+
+
+	header {padding: 10px  0;
+			background:  #00002B}
+
+
+			.caixa{position: relative;
+				   width:940px;
+					margin: 0 auto;}
+
+			nav {position:absolute;
+					top: 110px;
+					right: 0;}
+
+
+
+
+			nav li {display: inline;
+					margin: 0 0 0 35px;}
+
+			nav a {text-transform: uppercase; 
+	   				color: #00BFFF; 
+	   				font-weight: bold;
+	   				font-size: 20px; 
+	   				text-decoration: none}
+
+nav a:hover{ color: #8A2BE2;
+			 text-decoration: underline;}
+
+main ul {background: black; color: #FFFFFF}
+
+main ul h1{color: #8A2BE2}
+
+main ul a {color: #FFFFFF}
+
+main ul a:hover{color:#8A2BE2 ;}
+
+
+
+
+			.tamanhoLOGO{width: 25%}
+
+#titulo{text-align: center; 
+		font-weight: bold;
+		font-style: italic;
+		font-size: 40px;}
+
+
+.produtos {width: 940px
+		   margin: 0 auto;
+			padding: 100px 0;}
+
+.produtos li {display: inline-block;
+		      text-align: center;
+		  	  margin: 0 0 0 20px;
+		  	  width: 30%;
+		  	  vertical-align: top;
+		  	  border: 5px dotted #00BFFF;
+		  	  border-radius: 20px;}
+
+
+.produtos h2 {font-size: 30px;
+			  font-weight: bold;}
+
+.descrição {font-size: 18px;}
+
+.preço {font-size: 22px;
+		font-weight: bold;
+		margin: 20px 0;}
+
+.produtos li:hover{border-color: #8A2BE2;}
+
+.imagem{width: 60%}
+
+
+footer{ background: #00002B;
+        text-align: center;
+        color: #8A2BE2;
+        font-weight: bold;
+        font-size: 20px}
+
+.tamanhoLogo{width: 15%}
+
+
+
+
+

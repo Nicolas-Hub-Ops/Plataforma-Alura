@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+.group-signin { 
+  margin-bottom:45px;
+  text-align: center;
+}
+
+.group-signin input {
+  font-family: 'Iceland'; 
+    font-size:18px;
+    padding:10px 10px 10px 5px;
+    display: block;
+    width: 500px;
+    background: transparent;
+    border:none;
+    border-bottom:1px solid #fff;
+    color: #fff;
+    margin: auto;
+  }
+.group-signin input:focus { 
+    outline:none;
+    border-bottom: 1px solid #4044ED; 
+}
+
+.checkbox-signin {
+  font-size: 20px;
+}
+
+.checkbox-signin input {
+  margin-right: 1em;
+  margin-bottom: 2em;
+  display: inline-block;
+}
+
+.checkbox-signin a {
+  margin-left: 10em;
+  text-decoration: none;
+  color: #4044ED;
+}
+
+.response {
+  color: red;
+  font-size: 20px;
+}
+
+.btn-signin button {
+    font-family: 'Iceland'; 
+    background: #4044ED;
+    color: #fff;
+    padding: 20px 230px;
+    display: block;
+    margin: auto;
+    border: none;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+
+.btn-signin button:hover, .signup:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.btn-signin .signup {
+    display: inline-block;
+    background: gray;
+    color: #fff;
+    padding: 20px 195px;
+    margin: auto;
+    text-decoration: none;
+    margin-top: 1em;
+    border: none;
+    font-size: 20px;
+    transition: all 0.3s;
+}

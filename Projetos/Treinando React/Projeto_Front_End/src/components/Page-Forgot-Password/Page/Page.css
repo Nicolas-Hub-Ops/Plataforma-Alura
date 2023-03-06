@@ -1,0 +1,22 @@
+.forgot-password {
+    color: #fff;
+    font-family: 'Iceland'; 
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #242424;
+}
+
+.forgot-password h1 {
+    font-size: 96px;
+    font-family: 'Iceland';
+    margin-bottom: 1em;
+}
+
+.forgot-password span {
+    font-size: 26px;
+}
+
+.form-forgot-passward {
+    padding-top: 10em;
+}

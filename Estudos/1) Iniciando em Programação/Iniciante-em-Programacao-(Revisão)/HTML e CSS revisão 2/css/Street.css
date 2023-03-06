@@ -1,0 +1,64 @@
+
+
+body {font-family: 'Permanent Marker', cursive;
+		color: #191970;
+		background: #800000;}
+
+
+.fundo{background: darkblue; }
+
+/* M E N U */
+
+	header {padding: 10px  0;
+			background: linear-gradient(90deg,darkred,white,darkred)}
+
+
+		.Logo{width: 45%;
+			 margin-left: 10px;
+			 margin-top: 18px;
+			margin-bottom: 18px;}
+
+		.caixa{position: relative;
+				width:940px;
+				margin: 0 auto;
+				height: 232.22}
+
+				.Menu{margin-right: 110px;}
+
+			nav {position:absolute;
+					top: 150px;
+					right: 0;}
+
+
+			nav li {display: inline;
+					margin: 0 0 0 35px;}
+
+			nav a {text-transform: uppercase; 
+	   				color: darkblue; 
+	   				font-weight: bold;
+	   				font-size: 25px; 
+	   				text-decoration: none;
+	   				transition: 0.5s all;}
+
+nav a:hover{ color: orange;
+			 text-decoration: underline;}
+
+
+.tituloInicial{text-align: center;
+				font-size: 60px;
+				margin-top: 50px;}
+
+.descricao{text-align: center;
+			font-size: 20px;
+			color:#1C1C1C;
+			margin-top: 50px;}
+
+.imagem{width: 45%;
+		margin-left: 30px;
+		margin-top: 100px;
+		border-radius: 20px;
+		box-shadow: 20px 20px 20px 20px black;
+		display: inline-block;
+		vertical-align: bottom;}
+
+

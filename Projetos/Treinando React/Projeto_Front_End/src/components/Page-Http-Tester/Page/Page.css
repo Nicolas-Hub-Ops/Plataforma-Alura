@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+.httpTester {
+    margin: 5em 0;
+}
+
+.httpTester p {
+    font-family: 'Roboto';
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+    color: rgb(40, 40, 40);
+}

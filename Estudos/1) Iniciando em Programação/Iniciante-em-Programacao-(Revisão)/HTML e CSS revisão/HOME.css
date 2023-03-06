@@ -1,0 +1,211 @@
+
+
+
+
+.caixa{position: relative;
+		width:940px;
+		margin: 0 auto;}
+			
+
+	header {padding: 10px  0;
+			background:  #00002B
+		}
+
+
+
+
+			nav {position:absolute;
+					top: 110px;
+					right: 0;}
+
+
+
+
+			nav li {display: inline;
+					margin: 0 0 0 35px;}
+
+			nav a {text-transform: uppercase; 
+	   				color: #00BFFF; 
+	   				font-weight: bold;
+	   				font-size: 20px; 
+	   				text-decoration: none;
+	   				transition: 0.5s all;}
+
+
+nav a:hover{ color: gold;
+			 text-decoration: underline;}
+
+body {font-family:'Roboto', sans-serif;}
+
+
+
+.degrade {background:linear-gradient(90deg ,#00002B,white,white,white,white,#00002B);}
+
+
+
+
+
+.tituloCentroMenu {	text-align: center;
+			   		font-size: 30px;
+			   		padding-top: 10px;}
+
+
+
+
+
+.tituloCentro {text-align: center;
+				font-size: 30px;
+				padding-top: 60px;}
+
+
+
+
+
+.alinhamentoGeral {padding: 10px 50px;}
+
+
+
+
+
+
+strong {font-weight: bold;
+		color: #00BFFF;}
+
+
+
+
+
+
+.alinha {margin-top: 20px;
+		text-align: center;}
+
+
+
+
+.mapa {padding: 10px  50px 120px 120px;}
+
+
+
+
+
+/* Beneficios */
+
+.display {display: inline-block;}
+
+.distancia {padding-top: 10px;
+			padding-bottom: 100px;
+			display: inline-block;}
+
+
+.tituloLeft {padding-left:180px;
+			padding-bottom: 30px;
+			font-size: 30px;
+			padding-top: 80px;
+			display: block;}
+
+
+
+.grupo {padding-left: 130px;
+		padding-top: 10px;
+		font-weight: bold;
+		padding-right: 50px;}
+
+
+
+.grupo:before{content: "➤"}
+
+
+
+.loja {	width: 50%;
+		display: inline-block;
+		vertical-align: bottom;
+		box-shadow: 20px 20px 10px 10px #00002B;}
+
+
+/* Atendimento ao Cliente */
+
+.display2 {display: inline-block;
+			text-align: right;}
+
+.tituloRight {	text-align: right;
+				padding-left: 30px;
+				padding-top: 80px ;
+				padding-right: 150px;
+				font-size: 30px;
+				margin-left: 25px;}		
+
+
+
+.grupo1 {text-align: left;
+		 font-weight: bold;	
+		 padding-top: 10px;
+		 margin-right: 160px;
+		 /*padding-left: 10px;*/}
+
+
+
+.grupo1:before{content: "➤"}
+
+
+
+.loja2 {width: 50%;
+		vertical-align: top;
+		display: inline-block;
+		box-shadow: 20px 20px 10px 10px #00002B;}
+
+
+.final {text-align: center;
+		font-weight: bold;
+		font-size: 40px;
+		border: 2px solid #00002B;
+		background: #00BFFF;
+		 transition: 5.5s background;
+		 transition:1.5s transform;
+		 border:none;
+		border-radius: 20px;}
+
+
+.final:hover{background: linear-gradient(90deg,red,orange,gold,yellow,gold,orange,red);
+			   transform: scale(1.1); }
+
+
+
+footer{ background: #00002B;
+        text-align: center;
+        color: #8A2BE2;
+        font-weight: bold;
+        font-size: 20px}
+
+.tamanhoLogo{width: 25%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

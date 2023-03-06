@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+.group-signup input {
+    color: #FFF;
+    font-family: 'Iceland';
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid #FFF;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 500px;
+    background: transparent;
+    margin: auto;
+}
+
+.group-signup input:focus {
+    outline:none;
+    border-bottom: 1px solid #4044ED;
+}
+
+.alert {
+    font-size: 18px;
+    color: darkred;
+}
+
+.btn-signup button {
+    font-family: 'Iceland'; 
+    font-size: 20px;    
+    background: #4044ED;
+    color: #fff;
+    padding: 20px 230px;
+    margin: auto;
+    border: none;
+    transition: all 0.3s;
+}
+
+.btn-signup button:hover, a:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.btn-signup a {
+    display: inline-block;
+    background: gray;
+    color: #fff;
+    padding: 20px 234px;
+    margin: auto;
+    text-decoration: none;
+    margin-top: 1em;
+    font-size: 20px;
+    transition: all 0.3s;
+}

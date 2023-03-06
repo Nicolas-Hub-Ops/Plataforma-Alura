@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+
+.group-signup { 
+  margin-bottom:45px;
+  text-align: center;
+}
+
+.group-forgotpassword input {
+    font-family: 'Iceland'; 
+    font-size:18px;
+    text-align: center;
+    padding:10px 10px 10px 5px;
+    display: block;
+    width: 500px;
+    background: transparent;
+    border:none;
+    border:1px solid #fff;
+    border-radius: 50px;
+    color: #fff;
+    margin: auto;
+  }
+.group-forgotpassword input:focus { 
+    outline:none;
+    border: 1px solid #4044ED;
+}
+
+.btn button {
+    display: block;
+    
+    font-family: 'Iceland'; 
+    font-size: 20px;    
+    background: #4044ED;
+    color: #fff;
+    padding: 20px 230px;
+    margin: auto;
+    border: none;
+    transition: all 0.3s;
+}
+
+.btn button:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}

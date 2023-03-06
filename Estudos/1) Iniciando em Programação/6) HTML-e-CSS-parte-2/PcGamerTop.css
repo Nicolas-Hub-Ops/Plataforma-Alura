@@ -1,0 +1,75 @@
+
+
+#fundo {background: #000000;}
+
+
+
+
+header {background:#00002B;
+		font-size: 20px;
+		font-weight: bold;
+		color:#8A2BE2;
+		padding-top: 20px;}
+
+header div h1 {display: inline-block;
+			   margin: 80px 104px}
+
+
+.caixa{position: relative;
+		width:940px;
+		margin: 0 auto;}
+
+.logo {width: 20%;}
+
+#logo2 {width: 40%;
+		padding: 0 89px}
+
+.tamanho {font-size: 20px
+			color:white;
+			text-align: center;}
+
+
+
+main {padding: 50px 0 }
+
+
+
+
+.textoinicio{color:#8A2BE2;
+	         margin: 50px 10px; 
+	         font-size: 25px;
+		    text-align: center;
+			display: inline-block;
+			margin: 50px 320px;
+			font-weight: bold;}
+
+main p a {text-decoration: none;}
+
+main p a:hover{text-decoration: underline;
+			color: #00BFFF;}
+
+
+
+
+
+ul {display: inline-block;
+	padding-right: 62px;} 
+
+.texto{color:#8A2BE2;
+	   font-size: 18px;}
+
+.tamanhoImagem {width: 32%;
+				display: inline-block;
+				margin: 0 150px;}
+
+.separa {color: #FFFFFF;}
+
+
+footer{ background: #00002B;
+        text-align: center;
+        color: #8A2BE2;
+        font-weight: bold;
+        font-size: 20px}
+
+.tamanhoLogo{width: 15%}
+

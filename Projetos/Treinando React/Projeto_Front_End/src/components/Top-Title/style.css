@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.title-superior {
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: 500;
+    display: block;
+    color: gray;
+    background: #242424;
+    text-align: center;
+    padding: 0.5em 0;
+    box-shadow: 0px 10px 10px darkgrey;
+  }
+
+  @media screen and (max-width: 550px) {
+    .title-superior {
+      box-shadow: none;
+    }
+  }
+
+
+  @media screen and (max-width: 450px) {
+    .title-superior {
+      font-size: 25px;
+      text-align: right;
+    }
+}
+  

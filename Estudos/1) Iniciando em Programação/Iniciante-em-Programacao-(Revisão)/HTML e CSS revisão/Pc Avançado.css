@@ -1,0 +1,174 @@
+
+
+/* Cabeçalho */
+/*--------------------------------------------------------*/
+
+
+header {background:#00002B;
+		font-size: 20px;
+		font-weight: bold;
+		color:#8A2BE2;
+		padding-top: 20px;}
+
+header div h1 {display: inline-block;
+			   margin: 80px 104px}
+
+
+.caixa{position: relative;
+		width:940px;
+		margin: 0 auto;}
+
+.logo {width: 20%;}
+
+#logo2 {width: 40%;
+		padding: 0 89px}
+
+.tamanho {font-size: 20px
+			color:white;
+			text-align: center;}
+
+
+
+
+
+/* conteúdo */
+/*----------------------------------------------------------*/
+
+
+
+body {	font-family:'Roboto', sans-serif;
+		background: linear-gradient(90deg,#00002B,white,white,white,#00002B)}
+
+
+.tituloInicio {	text-align: center;
+				font-size: 30px;
+				padding-top: 30px;}
+
+.textoIntrodução {	padding-top: 50px;
+					text-align: center;
+					font-size: 18px; }
+
+strong { color: #8A2BE2;
+		font-weight: bold;}
+
+
+/* configuração Pc */
+/*---------------------------------------------------*/
+
+.display {display: inline-block;
+		  margin-right: 100px;}
+
+
+
+
+.tituloLeft{text-align: left;
+			font-size: 30px;
+			margin-top: 100px;
+			padding-bottom: 20px;
+			padding-left: 150px;}
+
+div ul li a {text-decoration: none;	
+			 color: black;
+			 transition: 0.4s all;}
+
+div ul li a:hover{color: #8A2BE2;
+					text-decoration: underline blue;}
+
+
+
+.grupoLeft{	text-align: left;
+			padding-left: 170px;
+			}
+
+
+
+
+.textoLeft{	text-decoration: none;
+			text-align: left;
+			margin-top: 10px;
+			font-weight: bold;}
+
+
+
+.textoLeft:before{content: "➤"}
+
+
+
+.imagemRight{width:45%;
+			vertical-align: bottom;
+			/*padding-left: 130px;*/
+			display: inline-block;
+			box-shadow: 20px 20px 20px 20px black;}
+
+
+
+
+
+
+
+/* Beneficios */
+/*-----------------------------------------------------------*/
+.tituloRight{font-size: 30px;
+			margin-top: 100px;
+			padding-bottom: 20px;}
+
+div ul li a {text-decoration: none;	
+			 color: black;}
+
+
+
+.grupoRight{padding-right: : 170px;}
+
+
+
+
+.textoRight{text-decoration: none;
+			margin-top: 10px;
+			font-weight: bold;}
+
+
+
+.textoRight:before{content: "➤"}
+
+
+
+
+
+.imagemLeft{width:45%;
+			vertical-align: bottom;
+			margin-top: 50px;
+			margin-right: 120px;
+			margin-left: 50px;
+			display: inline-block;
+			box-shadow: 20px 20px 20px 20px black;}
+
+.final{text-align: center;
+	   font-weight: bold;
+	   color: white;
+	   font-size: 40px;
+		transition: 1.2s all;
+		margin-top: 100px;
+		border: 2px dotted black;
+		border: none;}
+
+.compra{text-decoration: none;
+		color: white;}
+
+
+.final:hover{background: linear-gradient(90deg,#00002B,blue,red,green,yellow,orange,blue,orange,yellow,green,red,blue,#00002B);}
+
+
+
+
+/* Rodapé */
+/*------------------------------------------------------*/
+
+footer{ background: #00002B;
+        text-align: center;
+        color: #8A2BE2;
+        font-weight: bold;
+        font-size: 20px}
+
+.tamanhoLogo{width: 15%}
+
+

@@ -1,0 +1,165 @@
+___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+														---->HTML<----
+
+
+
+<DOCTYPE html>    			--> Versão HTML que está sendo usada.
+
+
+<html lang="___"> 			--> Linguagem do programa.______ = codigo do idioma
+
+
+<head>___</head>    		--> Cabeçalho, cabeça ou inicio do programa.______ = título/ começo.
+
+
+<body>___</body>     		--> Corpo, desenvolvimento ou conteúdo do programa.______ = escreva o conteúdo do programa.
+
+
+<meta charset="___"> 		--> Linguagem de acentos que será utilizada. ____ = codigo do dicionario linguístico
+
+
+<div>___</div>    			--> Divisão, usado para dividir as partes de um programa. _____ = desenvolvimento do programa
+
+
+<header>___</header>  		--> Título do programa. _____ = nome
+
+
+<main>___</main>			--> informação do programa._____ = texto
+
+
+<footer>____</footer>		--> Final do programa.____ = finalização
+
+
+<br>                 		--> Pula linha.
+
+
+<h1>____</h1> 				--> Marca e aumenta a letra. _____ = frase/ texto/ titulo
+
+
+<title>____</title>         --> Nome do programa no navegador. ____ = nome
+
+
+<img> src="___">			--> Adicionar imagem ao programa. _____ = local
+
+
+<link href="____">			--> Adicionar arquivo de apoio. _____ = local
+
+
+<ul>___</ul>				--> indicação de grupo._______ = lista
+
+
+<li>___</li>				--> bolinhas antes da escrita, listas.______ = texto
+
+
+<table>__</table> 			--> criar tabela. _____ = <tr> <td>_</td> </tr>  conteudo da tabela
+
+
+<tr>__</tr>					--> 1 linha da tabela.______ = conteudo da tabela
+
+
+<td>__</td>					-->conteudo da tabela. ____ = o que vai ter na tabela
+																										
+___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+       													----->CSS<-----
+
+
+
+display: inline-block;		--> opacidade apena da quantidade de pixels imagem.
+
+
+padding: x, y; 				--> movimentação pra cima ou pros lados._____ = px
+
+
+border: ____________ 		--> adicionar borda. ______ = tamanho, estilo e cor. 
+
+
+font-weight: bold;			--> texto em negrito destacado
+
+
+:hover{}					--> quando o mouser estiver por cima
+
+
+text-decoration:_____ 		--> decoração do texto____ = tipo de decoração ou none
+
+
+margin: x1, x2, y1, y2;		--> movimentação em px. _____ = quantidade de px
+
+
+vertical-align: top;		--> alinhas a imagem ao ponto vertical.
+
+
+background:_____;			--> Cor de fundo do programa. _____ = codigo hexadecimal da cor
+
+
+font-style:______;			--> estilo da escrita. _____ = nome do style
+
+
+font-size:______;			--> tamanho em pixels da frase especificada. _____ = quantidade de px
+
+
+font-wight:______;			--> deixar palavra em negrito._____ = bold
+
+
+text-decoration:_____;		--> tirar a decoração da palavra._______ = none
+
+
+margin: __ __ __ __;		--> separa as palavras.______ = quantidade de px
+
+
+text-transform:______;		--> tranformar a forma do texto.______ = uppercase
+
+
+color:_______;				--> cor da frase em codigo hexadecimal.______ = codigo hexadecimal da cor
+
+
+text-align:_____;			--> alinhamento do texto.________ = center / right / left
+
+
+width:_________;			--> opacidade da imagem._______ = 0% a 100%
+
+___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+													----->JAVA SCRIPT<-----
+
+
+
+<script>____</script>			--> onde começa e onde termina alinguagem. ________ = texto em java script
+
+
+alert ("_____")					--> alerta na tela. ________ = conteudo do alerta
+
+
+document.write ("____")			--> texto que vai aparecer no navegador.______ = texto
+
+
+document.querySelector("")		--> traz função do html para o script.______ = função HTML
+
+
+var______(------)				--> variavel._______ = nome variavel. ------ função que a variavel terá.
+
+
+function= _______ (-----);		--> transferencia de função._______ = nome da função. ------- = função que vai exercer.
+
+
+for(var   ;_______;_______){--}	--> até que var= algo. ____ = especificação da var. -- = até que var seja
+
+
+if(______) {------}				--> se algo igua a alguma coisa faça isso. _______ = valor ou texto. ---- = função que vai exercer ser for true
+
+
+else{______}					--> se não for igual faça. ______ = função que vai exercer
+
+
+while(_______){------}			--> circulo vicioso, repetição. ______ = valor. ------ = o que vai fazer.
+
+
+___________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+
+
+
+

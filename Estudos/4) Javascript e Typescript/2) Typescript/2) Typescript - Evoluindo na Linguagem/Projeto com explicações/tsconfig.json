@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/js",
+        "target": "ES6",
+        "noEmitOnError": true,
+        "noImplicitAny": true,
+        "removeComments": true, // REMOVE OS COMENTARIOS AO COMPILAR DE TS PARA JS
+        "strictNullChecks": true // 
+    },
+    "include": ["app/**/*"]
+}

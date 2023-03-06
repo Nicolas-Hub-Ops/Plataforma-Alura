@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.container-padrao {
+    width: 33%;
+    margin: auto;
+}
+
+.input-padrao {
+    border: none;
+    border-bottom: 2px solid darkgray;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 14px;
+    text-align: center;
+    width: 30em;
+    margin: auto;
+    margin-top: 2em;
+}
+
+.input-padrao:focus {
+    outline: none;
+    border-color: blue;
+}
+
+.input-file {
+    font-size: 16px;
+    background: gray;
+}

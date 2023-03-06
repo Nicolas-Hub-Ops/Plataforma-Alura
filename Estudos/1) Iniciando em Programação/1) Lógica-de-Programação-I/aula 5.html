@@ -1,0 +1,90 @@
+<meta charset = "UTF-8">
+
+
+<h1> Indice de Massa Corporal (IMC)</h1>
+
+O Imc é o Indice de Massa Corporal que uma pessoa tem, para medir o Imc usamos a fórmula seguinte:
+
+<h2> IMC = P / A² <br></h2>
+<h3>Onde P equivale ao peso e A é altura.</h3>
+<br>
+MENOR QUE 18,5	MAGREZA	0
+<br>
+ENTRE 18,5 E 24,9	NORMAL	
+<br>
+ENTRE 25,0 E 29,9	SOBREPESO	
+<br>
+ENTRE 30,0 E 39,9	OBESIDADE	
+<br>
+MAIOR QUE 40,0	OBESIDADE GRAVE
+<br>
+
+
+<script>
+	function pulaLinha() { document.write ("<br><br>") }
+	function mostre(frase) { document.write (frase)}
+
+	function calculaImc(altura, peso) { 
+
+		return  peso / (altura * altura);  }
+	
+		
+
+
+
+
+	var imcNicolas = calculaImc(1.80, 68);
+	pulaLinha();
+	var imcVinicius = calculaImc(1.85, 65);
+	mostre("Nicolas possui 1.80 de altura e pesa 68kg, logo, ")
+	mostre(" o IMC do Nicolas  é " + Math.round(imcNicolas));
+	pulaLinha();
+	mostre("Vinicius que é amigo do Nicolas possui 1.85 de altura e pesa 65kg, logo, ")
+	mostre(" o IMC do Vinicius  é " + Math.round(imcVinicius)
+		);
+
+</script>
+<br>
+<h1>______________________________________________________________________________________________________________________________</h1>
+<script>
+	function mostra(frase) {document.write(frase);}
+	function pulaLinha() {document.write("<br><br>")}
+	function calculaImc(altura, peso) { 
+    function marca() {document.write("<h1>")}
+    function fim() { document.write("</h1>")}
+    function pula() {document.write ("<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>")}
+
+		return  peso / (altura * altura);  }
+
+        var nomeInformado = prompt("Informe seu nome");
+		var alturaInformada = prompt("Informe sua altura");
+		var pesoInformado = prompt("Informe seu peso");
+
+		var imc = calculaImc(alturaInformada, pesoInformado);
+
+        document.write ("<h4>")
+
+		mostra (nomeInformado + "<h3> seu Imc é </h3>" + Math.round(imc));
+		pulaLinha();
+        if (imc < 18.5 ) { mostra("Seu Imc está muito baixo")}
+        if (imc > 25 ) { mostra("Seu Imc está muito elevado")}
+        if (imc > 18.5 && imc < 25 ) { mostra("Seu Imc está normal")}
+
+
+
+        document.write ("</h4>")
+
+    mostra("<br><br>Gostou né......aqui aprendi a usar o return e o if, o return serve para fazer com que apos todo o processo realizado, o codigo seja retornado ao proprietario, pense na seguinte situação, João comprou um ferro para fabricar a espada do ninja Jiraya, mas ele não sabuia fabricar, então ele deu o ferro para Joaquim fabricar, assim o retorno será uma modificação do elemento inicial<br>Já o if serve para dar condição juntamente com o else, se joão for maior que joaquim, ele vai pagar mais , <--if, se não for joaquim que vai parar mais<--else, é tipo assim, se ta coisa acontecer, voce exibe tal mensagem, se não acontece voce exibe outra tal mensagem, ainda não acabou, calma, vamos dar uma pausa para beber agua e já voltamos")
+    pulaLinha(6);
+    mostra("Pronto? então vamos <a href = file:///E:/Back-Up%20Canabarro%2001-02-2020/pasta%20Nicolas/Programacao/aula%206.html >continuar<a/>")
+
+
+
+
+
+
+
+
+</script>
+
+

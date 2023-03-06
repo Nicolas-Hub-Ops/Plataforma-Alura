@@ -1,0 +1,19 @@
+.image-randomDogs img {
+    display: block;
+    margin: auto;
+    margin-top: 5em;
+    padding: 1em;
+    background: rgb(199, 199, 199);
+    width: 50%;
+    border: 5px solid black;
+}
+
+.video {
+    display: block;
+    margin: auto;
+    margin-top: 5em;
+    padding: 1em;
+    background: rgb(199, 199, 199);
+    width: 50%;
+    border: 5px solid black;
+}

@@ -1,0 +1,26 @@
+<meta charset="UTF-8">
+<script>
+
+	function mostra(frase) {document.write(frase);}
+    function pulaLinha() {document.write("<br><br>");}
+    function marca() {document.write("<h3>");}
+    function fim() {document.write("</h3>");}
+
+    var vitorias = parseInt(prompt("Qual é o numero de vitórias do seu time?"));
+    var empates = parseInt(prompt("Qual o numero de empates do seu time?"));
+    var anoPassado = parseInt(prompt("Qual é a pontuação do seu time ano passado"))
+
+    var pontos = ((vitorias * 3) + empates);
+marca();
+
+    mostra("A pontuação que seu time marcou foi " + pontos);
+
+    pulaLinha();
+    if (pontos > anoPassado) { mostra(" Seu time está melhor que o ano passado.")}
+    if (pontos < anoPassado) { mostra(" Seu time está pior que o ano passado. ")}
+    if (pontos == anoPassado) { mostra("Seu time está igual ao ano passado. ")}
+fim();
+    
+mostra("Aqui foi uma revisão do programa passado, mas se torcer para algum time, ve ai quantos pontos ele fez. a formula é vitorias * 3 + empates = pontos, <a href = file:///E:/Back-Up%20Canabarro%2001-02-2020/pasta%20Nicolas/Programacao/aula%207%20parte%202.html>próximooo!!!</a>")
+
+</script>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	
+	<head>
+
+		<meta charset="UTF-8">
+
+		<title> Contato </title>
+
+			<link rel="stylesheet" href="reset.css">
+			<link rel="stylesheet" href="contato.css">
+		
+	</head>
+
+
+			
+	
+	<body>
+		<header>
+
+			<div class="caixa">
+
+				<img class="logo" src="Imagens/logo.JPG">
+				<img id="logo2"src="Imagens/contato.JPG">
+				<img class="logo" src="Imagens/logo.JPG">	
+			</div>
+
+		</header>
+
+
+
+
+
+
+
+		<main>
+
+			<form>
+		<fieldset>
+
+				<label for="nome"> Nome e Sobrenome</label>
+				<input type="text" id="nome" class="input-padrao" required placeholder="seu nome">
+
+				<label for="email"> E-mail </label>
+				<input type="email" id="email" class="input-padrao" required placeholder="seuemail@domínio.com">
+
+				<label for="telefone"> Telefone </label>
+				<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXX-XXXX">
+
+                <label for="mensagem"> Mensagem </label>
+				<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required placeholder="Sua mensagem para nós."></textarea>
+
+		</fieldset>
+
+		<fieldset>
+
+				<p class="marca"> Como prefere o nosso contato ? </p>
+
+				<label for="E-mail"><input type="radio" value="email" name="contato"  id="E-mail"> E-mail </label>
+				
+
+				<label for="numero"><input type="radio" value="telefone" name="contato"  id="numero"> Telefone </label>
+				
+
+				<label for="whatsApp"><input type="radio" value="Whatsapp" name="contato" id="whatsapp" checked> WhatsApp </label>
+				
+
+		</fieldset>
+
+		<fieldset>
+
+				<p class="marca"> Qual a qualidade do nosso atendimento ao cliente ? </p>
+				<select class="box">
+						<option>Baixa</option>
+						<option>Média</option>
+						<option>Alta</option>
+					
+				</select>
+
+		</fieldset>
+		
+		<fieldset>
+
+				<label for="notificações"><input type="checkbox" id="notificações" class="checkbox" checked> Quer receber notificações por e-mail ? </label>
+
+		</fieldset>
+
+		<br><br>
+
+				<input type="submit" value="Enviar formulário" class="enviar">
+			</form>
+
+			<table>
+
+				<thead>
+
+						<tr>
+							<th>Dia</th>
+							<th>Horário</th>
+						</tr>
+
+				</thead>
+
+				<tbody>
+						<tr>
+							<td>Segunda</td>
+							<td>08h ~ 20h</td>
+						</tr>
+
+						<tr>
+							<td>Terça</td>
+							<td>08h ~ 20h</td>
+						</tr>
+
+						<tr>
+							<td>Quarta</td>
+							<td>08h ~ 20h</td>
+						</tr>
+
+						<tr>
+		 					<td>Quinta</td>
+		 					<td>08h ~ 20h</td>
+						</tr>
+
+						<tr>
+							<td>Sexta</td>
+							<td>08h ~ 20h</td>
+						</tr>
+				</tbody>
+				
+			</table>
+
+		</main>
+
+
+
+
+
+
+		<footer>
+
+			<img class="tamanhoLogo" src="Imagens/logo.jpg">
+			<p>&copy; GamingSecret.com.br - 2020 &copy; </p>
+			<br>
+
+		</footer>
+
+	</body>
+
+</html>

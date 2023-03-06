@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+.return-page {
+    margin-top: 3em;
+}
+
+.container-one-geral {
+    font-family: 'Iceland', cursive;
+    margin: 2em 0 5em 0;
+}
+
+.container-one-info {
+    display: inline-block;
+    width: 60%;
+    margin-left: 2em;
+    border: 1px solid gray;
+    padding: 2em;
+}
+
+.container-one-image {
+    display: inline-block;
+    border: 1px solid gray;
+    padding: 2em;
+}
+
+.container-one-info {
+    vertical-align: top;
+    height: 31.23em;
+}
+
+.container-one-info li {
+    margin-top: 0.5em;
+}
+
+.container-one-image img {
+    width: 500px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
+.label-one {
+    display: block;
+    font-size: 18px;
+}
+
+
+.input-one {
+    font-family: 'Iceland', cursive;
+    border: none;
+    font-size: 25px;
+    padding: 10px;
+    width: 100%;
+}
+.input-one:focus {
+    outline: none;
+    background-color: #eeeeee;
+}
+
+.container-btns {
+    display: inline-block;
+    border: 1px solid gray;
+    padding: 1em 2em;
+    vertical-align: top;
+}
+
+.btns {
+    margin: 3.2em 0 0 0 ;
+}
+
+.btns button {
+    font-family: 'Iceland', cursive;
+    display: block;
+    margin: auto;
+    margin-top: 1em;
+    font-size: 20px;
+    border: none;
+}
+.btns button:hover {
+    opacity: 0.8;
+}
+.btns button:active {
+    color: #FFF;
+    background: #000;
+}
+
+.btn-put {
+    width: 40%;
+    padding: 1em 0;
+    background: gray;
+}
+
+.btn-del {
+    width: 40%;
+    padding: 1em 0;
+    background: gray;
+}
