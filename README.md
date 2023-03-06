@@ -3,7 +3,7 @@
        
 # Olá :wave: , meu nome é Nicolas,
 
-#### tenho 17 anos, moro em Brasília e estudo programação, aqui ficará disponível o meu progresso utilizando a Microsoft Learn.
+#### aqui estará disponível todos os cursos que realizei na plataforma Alura.
 <br>
 <div>
   <a href="https://github.com/Nicolas-Hub-Ops">
